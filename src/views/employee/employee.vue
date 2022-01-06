@@ -15,6 +15,7 @@
      </div>
 </template>
 <script>
+/* eslint-disable */
 import renderTable from '../../components/table.vue'
 export default {
   name: 'employee',
@@ -92,7 +93,7 @@ export default {
     },
     deleteItems () {
       if (this.deleteRecords.length) {
-        this.deleteRecords.forEach((item) => {
+            this.deleteRecords.forEach((item) => {
           this.deleteDetails(this.url, item.id)
         })
         this.dialogDelete = false

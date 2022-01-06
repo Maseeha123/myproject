@@ -12,9 +12,13 @@ export default new Vuex.Store({
       { title: 'Hours', icon: 'mdi-clock', path: '/hours', color: 'primary' },
       { title: 'View Profile', icon: 'mdi-account-edit', path: '/viewProfile', color: 'primary' },
       { title: 'List', icon: 'mdi-account-edit', path: '/list', color: 'primary' },
+      { title: 'List1', icon: 'mdi-account-edit', path: '/list1', color: 'primary' },
+      { title: 'List2', icon: 'mdi-account-edit', path: '/list2', color: 'primary' },
+      { title: 'List3', icon: 'mdi-account-edit', path: '/list3', color: 'primary' },
       { title: 'Members', icon: 'mdi-account-multiple-plus', path: '/members', color: 'primary' },
       { title: 'Activity', icon: 'mdi-clock-out', path: '/activity', color: 'primary' },
-      { title: 'Calender', icon: 'mdi-calendar', path: '/calender', color: 'primary' }
+      { title: 'Calender', icon: 'mdi-calendar', path: '/calender', color: 'primary' },
+      { title: 'Quiz', icon: 'mdi-calendar', path: '/quiz', color: 'primary' }
     ]
   },
   mutations: {

@@ -159,6 +159,21 @@ const routes = [
     path: '/list/:id?',
     component: () => import('../views/list.vue'),
     meta: { authorizedUser: true }
+  },
+  {
+    path: '/list2',
+    component: () => import('../views/list2.vue'),
+    meta: { authorizedUser: true }
+  },
+  {
+    path: '/list3',
+    component: () => import('../views/list3.vue'),
+    meta: { authorizedUser: true }
+  },
+  {
+    path: '/quiz',
+    component: () => import('../views/quiz.vue'),
+    meta: { authorizedUser: true }
   }
 ]
 const router = new VueRouter({

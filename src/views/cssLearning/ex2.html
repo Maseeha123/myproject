@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* css pseudo class with html classes */
+        /* a.highlight:hover{
+            color:brown;
+            font-size:70px;
+        } */
+        /* div{
+            background-color:red;
+            color:burlywood;
+        } */
+         /* Hover on a div */
+        /* div:hover{
+            background-color:darkblue;
+        } */
+        /* span{
+            border:1px solid darkblue;
+        } */
+        #test{
+            display: none;
+        }
+        /* Dispaly properties */
+        P{
+         border:1px solid rgb(255, 95, 47);
+         /* it starts with new line we can define width and height */
+         display: block;
+         width: 400px;
+        }
+        P{
+         border:1px solid rgb(255, 95, 47);
+         /* it will never starts with new line we cound't define width and height */
+         display: inline !important;
+         width: 400px;
+        }
+        P{
+         border:1px solid rgb(255, 95, 47);
+        /* it will never starts with new line we cound define width and height */
+         display: inline-block;
+         width: 400px;
+        }
+        /* :first-child pseudo-class matches a specified element that is the first child of another element*/
+        h1:first-child {
+                color: indianred;
+        }
+        input:focus{
+        background-color: yellow;
+        }
+        h3{
+            visibility:hidden;
+        }
+        table th, td {
+            border: 1px solid rebeccapurple;
+        }
+        tr.clops{
+            visibility: collapse;
+        }
+        /* The inherit keyword specifies that a property should inherit its value from its parent element */
+        span{ 
+            color:seagreen;
+        }
+        div {
+            color:skyblue
+        }
+        .extra span {
+           color: inherit;
+           }
+
+h1 { margin: 0.5in }      /* inches  */
+h2 { line-height: 3cm }   /* centimeters */
+h3 { word-spacing: 4mm }  /* millimeters */
+h3 { letter-spacing: 1Q } /* quarter-millimeters */
+h4 { font-size: 12pt }    /* points */
+h4 { font-size: 1pc }     /* picas */
+p  { font-size: 12px }    /* px */
+    </style>
+</head>
+
+<body>
+    <h1>hhhhh</h1>
+    <div>
+        <h1>heading</h1>
+    </h1>
+    </div>
+
+    <!-- <a href="abc.html" class="highlight">Click the link</a>
+    <div>
+        <p>This is a paragraph</p>
+    </div>
+    <span>This is a span tag</span>
+    <span>This is a span tag</span>
+    <span>This is a span tag</span>
+    <span>This is a span tag</span>
+    <span>This is a span tag</span>
+    <a href="abc.html" class="highlight">Click the link</a>  <a href="abc.html" class="highlight">Click the link</a>  <a href="abc.html" class="highlight">Click the link</a>  <a href="abc.html" class="highlight">Click the link</a>  <a href="abc.html" class="highlight">Click the link</a>
+
+<p id="test">Example of dislay of none</p> -->
+<hr>
+<!-- <p>this is paragraph</p>
+<p>this is paragraph</p>
+<p>this is paragraph</p>
+<p>this is paragraph</p> -->
+First name: <input type="text" name="firstname"><br>
+<!-- <span>This is span tag</span>
+<span>This is span tag</span>
+<span>This is span tag</span>
+<span>This is span tag</span>
+<span>This is span tag</span>
+<h3>This is a heading</h3> -->
+<!-- <table>
+    <th>Name</th>
+    <th>roll Number</th>
+    <th>result</th>
+    <tr>
+        <td>maseeha1</td>
+        <td>531</td>
+        <td>Pass</td>
+    </tr>
+    <tr class="clops">
+        <td>maseeha2</td>
+        <td>531</td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>maseeha3</td>
+        <td>531</td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>maseeha4</td>
+        <td>531</td>
+        <td>Pass</td>
+    </tr>
+</table> -->
+<span>span element</span>
+<div>
+    <span>Span Tag</span>
+</div>
+<div class="extra" style="color:green">
+    Here is <span>a span element</span> which is green, because it inherits from its parent.
+  </div>
+  <h1>Thi is word</h1>
+  <h2>Thi is word</h2>
+  <h3>Thi is word</h3>
+  <h4>Thi is word</h4>
+</body>
+</html>
